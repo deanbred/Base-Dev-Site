@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/gmussyco/public_html/
+    - export DEPLOYPATH=/home2/gmussyco/public_html/website_6935e441
     - /bin/cp -R out/_next $DEPLOYPATH
     - /bin/cp -R out/fonts $DEPLOYPATH
     - /bin/cp -R out/images $DEPLOYPATH
