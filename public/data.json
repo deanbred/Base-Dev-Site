@@ -1,0 +1,13 @@
+{
+    "name": "Mechanime",
+    "symbol": "MECHANIME",
+    "decimals": 18,
+    "description": "Culture Token on Base",
+    "website": "https://",
+    "twitter": "@",
+    "tokens": {
+      "base": {
+        "address": ""
+      }
+    }
+  }
