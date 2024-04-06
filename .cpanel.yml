@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/gmussyco/public_html/mechanime/
+    - /bin/cp -R out/_next $DEPLOYPATH
+    - /bin/cp -R out/fonts $DEPLOYPATH
+    - /bin/cp -R out/images $DEPLOYPATH
+    - /bin/cp out/*.* $DEPLOYPATH
