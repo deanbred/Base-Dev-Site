@@ -159,7 +159,7 @@ export default function Home() {
 
           <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
             <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              Post apocalyptic warrior anime
+              Post apocalyptic warrior anime girls
             </p>
           </div>
 
