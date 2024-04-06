@@ -11,7 +11,7 @@ const images = [
   { src: "/images/img02.png" },
   { src: "/images/img03.png" },
   { src: "/images/img04.png" },
-/*   { src: "/images/img05.png" },
+  { src: "/images/img05.png" },
   { src: "/images/img06.png" },
   { src: "/images/img07.png" },
   { src: "/images/img08.png" },
@@ -19,7 +19,7 @@ const images = [
   { src: "/images/img10.png" },
   { src: "/images/img11.png" },
   { src: "/images/img12.png" },
-  { src: "/images/img13.png" }, */
+  { src: "/images/img13.png" },
 ]
 
 export default function Home() {
