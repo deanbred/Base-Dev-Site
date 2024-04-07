@@ -90,7 +90,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" w-40 ml-auto text-2xl">
+          <div className="flex flex-row space-x-8 w-1/4 text-2xl">
             <div className="p-2 mt-4 text-center bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
                 <a
@@ -99,6 +99,9 @@ export default function Home() {
                 >
                   Renounced Contract
                 </a>
+              </p>
+              <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
+                NO TAX
               </p>
             </div>
 
@@ -126,9 +129,6 @@ export default function Home() {
                 3%
               </p>
 
-              <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-                NO TAX
-              </p>
             </div>
 
             <div className="p-2 mt-4 text-center bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
