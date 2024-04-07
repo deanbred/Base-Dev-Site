@@ -90,60 +90,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              Mechanime pushes the evolution of meme tokens further into art inspired by master game artist Akihiko Yoshida.
-            </p>
-          </div>
-
-          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              <a
-                className="text-[#234bfa] hover:text-[#ad6544]"
-                href="https://basescan.org/token/"
-              >
-                Renounced Contract
-              </a>
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              NO TAX
-            </p>
-          </div>
-
-          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              Supply 42B
-            </p>
-
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              <a
-                className="text-[#234bfa] hover:text-[#ad6544]"
-                href="https://basescan.org/address/"
-              >
-                Burn
-              </a>{" "}
-              6%
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              <a
-                className="text-[#234bfa] hover:text-[#ad6544]"
-                href="https://basescan.org/address/"
-              >
-                Team
-              </a>{" "}
-              3%
-            </p>
-          </div>
-
-          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              AntiWhale
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              AntiSnipe
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-              MaxWallet 3%
+          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
+            <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+              Mechanime pushes the evolution of meme tokens further into art
+              inspired by master game artist Akihiko Yoshida.
             </p>
           </div>
 
@@ -163,8 +113,61 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa]">
-            <p className="lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
+          <div className="flex flex-row justify-center space-x-6 ">
+            <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <a
+                  className="text-[#234bfa] hover:text-[#ad6544]"
+                  href="https://basescan.org/token/"
+                >
+                  Renounced Contract
+                </a>
+              </p>
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                NO TAX
+              </p>
+            </div>
+
+            <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                Supply 42B
+              </p>
+
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <a
+                  className="text-[#234bfa] hover:text-[#ad6544]"
+                  href="https://basescan.org/address/"
+                >
+                  Burn
+                </a>{" "}
+                6%
+              </p>
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <a
+                  className="text-[#234bfa] hover:text-[#ad6544]"
+                  href="https://basescan.org/address/"
+                >
+                  Team
+                </a>{" "}
+                3%
+              </p>
+            </div>
+
+            <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                AntiWhale
+              </p>
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                AntiSnipe
+              </p>
+              <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                MaxWallet 3%
+              </p>
+            </div>
+          </div>
+
+          <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
+            <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
               As chaos led to apocalypse, a few elite families survived in
               luxury bunkers. Twenty years later, their daughters emerge into a
               deserted wasteland to fight for last resources on the planet.
