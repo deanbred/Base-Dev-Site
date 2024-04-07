@@ -45,7 +45,9 @@ export default function Home() {
         <main id="page-wrap" className="font-ubuntu">
           <div className="p-1 flex min-h-screen flex-col border-b-2 overflow-hidden">
             <div className="flex justify-center items-center w-full">
-              <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl text-2xl text-stone-200">MechAnime</h2>
+              <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl text-2xl text-stone-200">
+                MechAnime
+              </h2>
             </div>
 
             <div className="p-1 pl-3 mb-4 mr-auto text-xl space-y-4 flex flex-col items-start">
@@ -83,8 +85,8 @@ export default function Home() {
 
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                Mechanime pushes the evolution of meme tokens further into art
-                inspired by master game artist Akihiko Yoshida.
+                MechAnime is the evolution of meme tokens further into art and
+                lore, inspired by master game artist Akihiko Yoshida.
               </p>
             </div>
 
@@ -108,14 +110,22 @@ export default function Home() {
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
-                    className="text-[#234bfa] hover:text-[#ad6544]"
+                    className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/token/"
                   >
                     Renounced Contract
                   </a>
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                  NO TAX
+                  <a
+                    className="text-[#234bfa] hover:text-[#d1352d]"
+                    href="https://basescan.org/token/"
+                  >
+                    LP Burnt
+                  </a>
+                </p>
+                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                  RUG PROOF
                 </p>
               </div>
 
@@ -126,16 +136,25 @@ export default function Home() {
 
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
-                    className="text-[#234bfa] hover:text-[#ad6544]"
+                    className="text-[#234bfa] hover:text-[#d1352d]"
+                    href="https://basescan.org/address/"
+                  >
+                    Liquidity
+                  </a>{" "}
+                  92%
+                </p>
+                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                  <a
+                    className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
                   >
                     Burn
                   </a>{" "}
-                  6%
+                  5%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
-                    className="text-[#234bfa] hover:text-[#ad6544]"
+                    className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
                   >
                     Team
@@ -146,23 +165,26 @@ export default function Home() {
 
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                  AntiWhale
+                  Anti-Snipe
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                  AntiSnipe
+                  Anti-Whale
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   MaxWallet 3%
+                </p>
+                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                  NO TAX
                 </p>
               </div>
             </div>
 
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                As chaos led to apocalypse, a few elite families survived in
-                luxury bunkers. Twenty years later, their daughters emerge into
-                a deserted wasteland to fight for last resources on the planet.
-                Follow their story on X.
+                As chaos spiraled into apocalypse, the world's elite retreated
+                to secure bunkers. Now their mecha-warrior daughters have
+                emerged into a desert wasteland to fight for last resources on
+                the planet. Follow their story on X.
               </p>
             </div>
 
@@ -190,7 +212,7 @@ export default function Home() {
             <div className="m-auto">
               <p className="lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-stone-100">
                 <a
-                  className="text-stone-100 hover:text-[#234bfa]"
+                  className="hover:text-[#d1352d] text-[#234bfa]"
                   href="https://dexscreener.com/base/"
                 >
                   $MECHANIME
