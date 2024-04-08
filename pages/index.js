@@ -180,10 +180,10 @@ export default function Home() {
                   MaxWallet 3%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  NO PRESALE
+                  Tax 0%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  NO TAX
+                  NO PRESALE
                 </p>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
               As chaos escalated into total apocalypse the world's elite withdrew into fortified bunkers. 
               Two decades later their mecha-warrior daughters, having trained underground their whole lives, 
-              emerge into a desolate wasteland to battle for the planet's remaining resources. 
+              emerge into a desolate wasteland to battle for the planet's last resources. 
               Follow their saga on X and Telegram.
               </p>
             </div>
