@@ -50,9 +50,9 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="p-1 pl-3 mb-4 mr-auto text-xl space-y-4 flex flex-col items-start">
+            <div className="p-1 pl-3 mb-4 ml-auto text-xl space-y-4 flex flex-col">
               <button
-                className="p-1 bg-[#234bfa] text-stone-200 rounded-xl"
+                className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
                 onClick={async () =>
                   window.open("https://aerodrome.finance/swap?from=eth&to=")
                 }
@@ -61,7 +61,7 @@ export default function Home() {
               </button>
 
               <button
-                className="p-1 bg-[#234bfa] text-stone-200 rounded-xl"
+                className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
                 onClick={async () =>
                   window.open("https://dexscreener.com/base/")
                 }
@@ -85,8 +85,8 @@ export default function Home() {
 
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                MechAnime is the evolution of meme tokens further into art and
-                lore, inspired by master game artist Akihiko Yoshida.
+                MechAnime pushes the evolution of base meme tokens further into art and
+                lore. Inspired by master game artist Akihiko Yoshida.
               </p>
             </div>
 
@@ -121,11 +121,11 @@ export default function Home() {
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/token/"
                   >
-                    LP Burnt
+                    LP Locked
                   </a>
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                  RUG PROOF
+                  IMMUTABLE
                 </p>
               </div>
 
@@ -141,16 +141,16 @@ export default function Home() {
                   >
                     Liquidity
                   </a>{" "}
-                  92%
+                  90%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
                   >
-                    Burn
+                    Airdrop
                   </a>{" "}
-                  5%
+                  7%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
@@ -179,12 +179,21 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="mt-2 m-auto border-2">
+              <Image
+                src="immutable.png"
+                width={740}
+                height={300}
+                alt="Logo"
+              ></Image>
+            </div>
+
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                 As chaos spiraled into apocalypse, the world's elite retreated
-                to secure bunkers. Now their mecha-warrior daughters have
-                emerged into a desert wasteland to fight for last resources on
-                the planet. Follow their story on X.
+                to secure bunkers. Now decades later, their mecha-warrior daughters have
+                emerged into a desert wasteland to fight for the last resources on
+                the planet. Follow their story on X and Telegram.
               </p>
             </div>
 
