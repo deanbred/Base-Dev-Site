@@ -195,7 +195,7 @@ export default function Home() {
             </div>
 
             <div
-              className="p-2 mt-4 mx-auto outline outline-2 outline-[#d1352d]"
+              className="p-2 mt-4 mx-auto"
             >
               <SlideshowLightbox
                 className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
