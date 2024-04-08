@@ -23,7 +23,7 @@ const images = [
 ]
 
 export default function Home() {
-  const [copiedText, setCopiedText] = useState("0x")
+  const [copiedText, setCopiedText] = useState("0x05B8c005953cb02C58b6a251B5FeB7b028E72512")
 
   useEffect(() => {
     initLightboxJS("DF8A-D560-5C71-E585", "Individual")
@@ -51,10 +51,10 @@ export default function Home() {
               <button
                 className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
                 onClick={async () =>
-                  window.open("https://aerodrome.finance/swap?from=eth&to=")
+                  window.open("https://app.uniswap.org/swap?from=eth&to=")
                 }
               >
-                Buy Now
+                Buy on Uni
               </button>
 
               <button
@@ -134,7 +134,7 @@ export default function Home() {
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
-                    href="https://basescan.org/address/"
+                    href="https://app.uniswap.org/pools/v2"
                   >
                     Liquidity
                   </a>{" "}
@@ -143,7 +143,7 @@ export default function Home() {
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
-                    href="https://basescan.org/address/"
+                    href="https://basescan.org/address/0x7Ac2d9FF78930db172b51a72E3B954CB9d6Ed269"
                   >
                     Airdrop
                   </a>{" "}
@@ -152,7 +152,7 @@ export default function Home() {
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
-                    href="https://basescan.org/address/"
+                    href="https://basescan.org/address/0xdf921074AF44aABA0da0A7B2F0F5fa0D9FddE71f"
                   >
                     Team
                   </a>{" "}
