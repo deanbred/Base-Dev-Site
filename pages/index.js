@@ -83,7 +83,7 @@ export default function Home() {
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                 MechAnime pushes the evolution of base meme tokens further into art and
-                lore. Inspired by master game artist Akihiko Yoshida.
+                lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
               </p>
             </div>
 
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-2 m-auto border-2">
+            <div className="mt-4 m-auto border-2">
               <Image
                 src="immutable.png"
                 width={740}
@@ -187,9 +187,10 @@ export default function Home() {
 
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-              As chaos escalated into an apocalypse, the world's elite withdrew into fortified bunkers. 
-              Decades later, their mech-warrior daughters have emerged into a desolate wasteland to battle 
-              for the planet's remaining resources. Follow their saga on X and Telegram.
+              As chaos escalated into total apocalypse the world's elite withdrew into fortified bunkers. 
+              Two decades later their mecha-warrior daughters, having trained underground their whole lives, 
+              emerge into a desolate wasteland to battle for the planet's remaining resources. 
+              Follow their saga on X and Telegram.
               </p>
             </div>
 
