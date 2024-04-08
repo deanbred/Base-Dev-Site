@@ -162,13 +162,13 @@ export default function Home() {
 
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                  Anti-Snipe
-                </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   Anti-Whale
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   MaxWallet 3%
+                </p>
+                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                  NO PRESALE
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   NO TAX
