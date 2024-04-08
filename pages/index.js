@@ -9,20 +9,17 @@ import Ticker from "@/components/Ticker"
 const images = [
   { src: "/images/img01.png" },
   { src: "/images/img02.png" },
-  { src: "/images/img13.png" },
-
   { src: "/images/img03.png" },
-  { src: "/images/img09.png" },
-
   { src: "/images/img04.png" },
-  { src: "/images/img11.png" },
-
   { src: "/images/img05.png" },
-  { src: "/images/img08.png" },
-
   { src: "/images/img06.png" },
   { src: "/images/img07.png" },
+  { src: "/images/img08.png" },
+  { src: "/images/img09.png" },
+  { src: "/images/img10.png" },
+  { src: "/images/img11.png" },
   { src: "/images/img12.png" },
+  { src: "/images/img13.png" },
 ]
 
 export default function Home() {
@@ -190,10 +187,9 @@ export default function Home() {
 
             <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-                As chaos spiraled into apocalypse, the world's elite retreated
-                to secure bunkers. Now decades later, their mecha-warrior daughters have
-                emerged into a desert wasteland to fight for the last resources on
-                the planet. Follow their story on X and Telegram.
+              As chaos escalated into an apocalypse, the world's elite withdrew into fortified bunkers. 
+              Decades later, their mech-warrior daughters have emerged into a desolate wasteland to battle 
+              for the planet's remaining resources. Follow their saga on X and Telegram.
               </p>
             </div>
 
