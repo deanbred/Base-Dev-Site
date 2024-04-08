@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
+            <div className=" xs:mt-40 sm:mt-48 md:mt-64 lg:mt-96 2xl:-mt-128px p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                 MechAnime pushes the evolution of base meme tokens further into art and
                 lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
@@ -241,7 +241,7 @@ export default function Home() {
               </SlideshowLightbox>
             </div>
 
-            <div className="m-auto">
+            <div className="mt-2 m-auto">
               <p className="lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-white">
                 <a
                   className="hover:text-[#d1352d]"
