@@ -105,7 +105,7 @@ export default function Home() {
 
             <div className="flex flex-row justify-center space-x-3 ">
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/token/"
@@ -113,7 +113,7 @@ export default function Home() {
                     Renounced Contract
                   </a>
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/token/"
@@ -121,17 +121,17 @@ export default function Home() {
                     LP Locked
                   </a>
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   IMMUTABLE
                 </p>
               </div>
 
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   Supply 42B
                 </p>
 
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
@@ -140,7 +140,7 @@ export default function Home() {
                   </a>{" "}
                   90%
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
@@ -149,7 +149,7 @@ export default function Home() {
                   </a>{" "}
                   7%
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
                     href="https://basescan.org/address/"
@@ -161,16 +161,16 @@ export default function Home() {
               </div>
 
               <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   Anti-Whale
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   MaxWallet 3%
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   NO PRESALE
                 </p>
-                <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+                <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   NO TAX
                 </p>
               </div>
