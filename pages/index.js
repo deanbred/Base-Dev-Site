@@ -42,7 +42,7 @@ export default function Home() {
         <main id="page-wrap" className="font-ubuntu">
           <div className="p-1 flex min-h-screen flex-col border-b-2 overflow-hidden">
             <div className="flex justify-center items-center w-full">
-              <h2 className=" font xl:text-7xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl text-3xl text-stone-200">
+              <h2 className=" font xl:text-7xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl text-3xl text-white">
                 MechAnime
               </h2>
             </div>
@@ -66,7 +66,7 @@ export default function Home() {
                 Chart
               </button>
 
-              <div className="flex flex-col items-center justify-center space-y-4">
+              <div className="flex flex-col ml-auto space-y-4">
                 <SocialIcon
                   url="https://t.me/mech_anime"
                   network="telegram"
@@ -87,8 +87,14 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="flex justify-center items-center w-full">
+              <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+                Contract Address
+              </h2>
+            </div>
+
             <div
-              className="p-2 mt-4 m-auto text-center max-w-xl hover:outline-white bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] cursor-pointer"
+              className="p-2 mt-0 m-auto text-center max-w-xl hover:outline-white bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] cursor-pointer"
               onClick={async () => {
                 try {
                   await navigator.clipboard.writeText(copiedText)
@@ -103,8 +109,14 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="flex justify-center items-center w-full">
+              <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+                Tokenomics
+              </h2>
+            </div>
+
             <div className="flex flex-row justify-center space-x-3 ">
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
+              <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
@@ -116,7 +128,7 @@ export default function Home() {
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
-                    href="https://basescan.org/token/"
+                    href="https://beta.uncx.network/lockers/explore/pools"
                   >
                     LP Locked
                   </a>
@@ -126,7 +138,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
+              <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   Supply 42B
                 </p>
@@ -160,7 +172,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
+              <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   Anti-Whale
                 </p>
@@ -185,7 +197,13 @@ export default function Home() {
               ></Image>
             </div>
 
-            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
+            <div className="flex justify-center items-center w-full">
+              <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+                BackStory
+              </h2>
+            </div>
+
+            <div className="p-2 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
               As chaos escalated into total apocalypse the world's elite withdrew into fortified bunkers. 
               Two decades later their mecha-warrior daughters, having trained underground their whole lives, 
@@ -194,8 +212,14 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="flex justify-center items-center w-full">
+              <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+                Characters
+              </h2>
+            </div>
+
             <div
-              className="p-2 mt-4 mx-auto"
+              className="mx-auto"
             >
               <SlideshowLightbox
                 className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
@@ -218,12 +242,12 @@ export default function Home() {
             </div>
 
             <div className="m-auto">
-              <p className="lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-stone-100">
+              <p className="lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-white">
                 <a
-                  className="hover:text-[#d1352d] text-[#234bfa]"
-                  href="https://dexscreener.com/base/"
+                  className="hover:text-[#d1352d]"
+                  href="https://app.uniswap.org/swap?from=eth&to="
                 >
-                  $MECHANIME
+                  Ticker:$MECHANIME
                 </a>
               </p>
             </div>
