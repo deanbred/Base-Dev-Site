@@ -38,7 +38,7 @@ export default function Home() {
         <link rel="icon" href="/bg.png" />
       </Head>
 
-      <div className=" bg-no-repeat xl:bg-contain lg:bg-contain md:bg-contain sm:bg-contain xs:bg-contain bg-contain 2xl:bg-cover bg-[#f1d28e] bg-[url('../public/bg.png')]">
+      <div className=" bg-no-repeat bg-contain md:bg-contain lg:bg-contain xl:bg-contain 2xl:bg-cover 3xl:bg-cover 4xl:bg-cover 5xl:bg-cover 6xl:bg-cover bg-[#f1d28e] bg-[url('../public/bg.png')]">
         <main id="page-wrap" className="font-ubuntu">
           <div className="p-1 flex min-h-screen flex-col border-b-2 overflow-hidden">
             <div className="flex justify-center items-center w-full">
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
+            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                 MechAnime pushes the evolution of base meme tokens further into art and
                 lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
 
             <div
-              className="p-2 mt-4 m-auto text-center max-w-xl hover:outline-white bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] cursor-pointer"
+              className="p-2 mt-4 m-auto text-center max-w-xl hover:outline-white bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] cursor-pointer"
               onClick={async () => {
                 try {
                   await navigator.clipboard.writeText(copiedText)
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row justify-center space-x-3 ">
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
@@ -126,7 +126,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   Supply 42B
                 </p>
@@ -160,7 +160,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-80 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#234bfa] w-48">
+              <div className="p-2 mt-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                   Anti-Whale
                 </p>
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 m-auto border-2">
+            <div className="mt-4 m-auto outline outline-2 outline-[#d1352d]">
               <Image
                 src="immutable.png"
                 width={740}
@@ -185,7 +185,7 @@ export default function Home() {
               ></Image>
             </div>
 
-            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-80 rounded-2xl outline outline-2 outline-[#234bfa]">
+            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
               As chaos escalated into total apocalypse the world's elite withdrew into fortified bunkers. 
               Two decades later their mecha-warrior daughters, having trained underground their whole lives, 
@@ -194,7 +194,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mt-4 p-1 mx-auto">
+            <div className="mt-4 mx-auto outline outline-2 outline-[#d1352d]">
               <SlideshowLightbox
                 className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
                 lightboxIdentifier="lightbox1"
