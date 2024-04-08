@@ -42,7 +42,7 @@ export default function Home() {
         <main id="page-wrap" className="font-ubuntu">
           <div className="p-1 flex min-h-screen flex-col border-b-2 overflow-hidden">
             <div className="flex justify-center items-center w-full">
-              <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl text-2xl text-stone-200">
+              <h2 className=" font xl:text-7xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl text-3xl text-stone-200">
                 MechAnime
               </h2>
             </div>
@@ -194,7 +194,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mt-4 mx-auto outline outline-2 outline-[#d1352d]">
+            <div
+              className="p-2 mt-4 mx-auto outline outline-2 outline-[#d1352d]"
+            >
               <SlideshowLightbox
                 className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
                 lightboxIdentifier="lightbox1"
