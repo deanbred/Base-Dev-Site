@@ -38,7 +38,7 @@ export default function Home() {
         <link rel="icon" href="/bg.png" />
       </Head>
 
-      <div className=" bg-no-repeat bg-contain md:bg-contain lg:bg-contain xl:bg-contain 2xl:bg-cover 3xl:bg-cover 4xl:bg-cover 5xl:bg-cover 6xl:bg-cover bg-[#f1d28e] bg-[url('../public/bg.png')]">
+      <div className=" bg-no-repeat bg-contain md:bg-contain lg:bg-contain xl:bg-contain 2xl:bg-contain 3xl:bg-cover 4xl:bg-cover 5xl:bg-cover 6xl:bg-cover 7xl:bg-cover bg-[#f1d28e] bg-[url('../public/bg.png')]">
         <main id="page-wrap" className="font-ubuntu">
           <div className="p-1 flex min-h-screen flex-col border-b-2 overflow-hidden">
             <div className="flex justify-center items-center w-full">
@@ -54,7 +54,7 @@ export default function Home() {
                   window.open("https://app.uniswap.org/swap?from=eth&to=")
                 }
               >
-                Buy on Uni
+                Buy $MECHA
               </button>
 
               <button
@@ -134,7 +134,7 @@ export default function Home() {
                   </a>
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  IMMUTABLE
+                  RUG PROOF
                 </p>
               </div>
 
@@ -188,7 +188,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 m-auto outline outline-2 outline-[#d1352d]">
+            <div className="flex justify-center items-center w-full">
+              <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+                Immutable Code
+              </h2>
+            </div>
+
+            <div className="m-auto outline outline-2 outline-[#d1352d]">
               <Image
                 src="immutable.png"
                 width={740}
@@ -247,7 +253,7 @@ export default function Home() {
                   className="hover:text-[#d1352d]"
                   href="https://app.uniswap.org/swap?from=eth&to="
                 >
-                  Ticker:$MECHANIME
+                  Ticker:$MECHA
                 </a>
               </p>
             </div>
