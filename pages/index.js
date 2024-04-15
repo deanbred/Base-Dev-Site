@@ -23,7 +23,7 @@ const images = [
 ]
 
 export default function Home() {
-  const [copiedText, setCopiedText] = useState("0x05B8c005953cb02C58b6a251B5FeB7b028E72512")
+  const [copiedText, setCopiedText] = useState("0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8")
 
   useEffect(() => {
     initLightboxJS("DF8A-D560-5C71-E585", "Individual")
@@ -51,16 +51,16 @@ export default function Home() {
               <button
                 className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
                 onClick={async () =>
-                  window.open("https://app.uniswap.org/swap?from=eth&to=")
+                  window.open("https://app.uniswap.org/swap?chain=base&outputCurrency=0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8")
                 }
               >
-                Buy $MECHA
+                Buy MECHA
               </button>
 
               <button
                 className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
                 onClick={async () =>
-                  window.open("https://dexscreener.com/base/")
+                  window.open("https://dexscreener.com/base/0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8")
                 }
               >
                 Chart
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className=" xs:mt-40 sm:mt-48 md:mt-64 lg:mt-96 2xl:-mt-128px p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
+            <div className="p-2 mt-4 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
                 MechAnime pushes the evolution of base meme tokens further into art and
                 lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
@@ -120,7 +120,7 @@ export default function Home() {
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
                     className="text-[#234bfa] hover:text-[#d1352d]"
-                    href="https://basescan.org/token/"
+                    href="https://basescan.org/token/0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8"
                   >
                     Renounced Contract
                   </a>
@@ -134,7 +134,7 @@ export default function Home() {
                   </a>
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  RUG PROOF
+                  RUG PROOF!
                 </p>
               </div>
 
@@ -159,7 +159,7 @@ export default function Home() {
                   >
                     Airdrop
                   </a>{" "}
-                  7%
+                  6%
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
                   <a
@@ -168,35 +168,35 @@ export default function Home() {
                   >
                     Team
                   </a>{" "}
-                  3%
+                  4%
                 </p>
               </div>
 
               <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-[#d1352d] w-48">
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  Anti-Whale
+                  Anti-Sniper
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  MaxWallet 3%
+                  Stops MEV Bots
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  Tax 0%
+                  Tax Free
                 </p>
                 <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-                  NO PRESALE
+                  NO PRESALE!
                 </p>
               </div>
             </div>
 
             <div className="flex justify-center items-center w-full">
               <h2 className="mt-2 font xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
-                Immutable Code
+                Sniper and MEV Bot Defenses
               </h2>
             </div>
 
             <div className="m-auto outline outline-2 outline-[#d1352d]">
               <Image
-                src="immutable.png"
+                src="code.png"
                 width={740}
                 height={300}
                 alt="Logo"
@@ -212,9 +212,8 @@ export default function Home() {
             <div className="p-2 m-auto text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-[#d1352d]">
               <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
               As chaos escalated into total apocalypse the world's elite withdrew into fortified bunkers. 
-              Two decades later their mecha-warrior daughters, having trained underground their whole lives, 
-              emerge into a desolate wasteland to battle for the planet's last resources. 
-              Follow their saga on X and Telegram.
+              Two decades later their mecha-warrior daughters emerge into a desert wasteland to battle 
+              for the planet's last resources. Follow them on X and TG.
               </p>
             </div>
 
@@ -251,7 +250,7 @@ export default function Home() {
               <p className="lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-white">
                 <a
                   className="hover:text-[#d1352d]"
-                  href="https://app.uniswap.org/swap?from=eth&to="
+                  href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8"
                 >
                   Ticker:$MECHA
                 </a>
