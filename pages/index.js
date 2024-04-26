@@ -24,7 +24,7 @@ const images = [
 
 export default function Home() {
   const [copiedText, setCopiedText] = useState(
-    "0x"
+    "0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
   )
 
   useEffect(() => {
@@ -110,7 +110,7 @@ export default function Home() {
               }
             }}
           >
-            <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+            <p className="text-base">
               {copiedText}
             </p>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row justify-center mb-4 space-x-3">
-          <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-48">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="text-[#234bfa] hover:text-[#d1352d]"
@@ -137,7 +137,7 @@ export default function Home() {
                 className="text-[#234bfa] hover:text-[#d1352d]"
                 href="https://beta.uncx.network/lockers/explore/pools"
               >
-                Liquidity Locked
+                LP Locked
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
@@ -145,7 +145,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-48">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Supply 42B
             </p>
@@ -179,12 +179,12 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-2 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-48">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Anti-Sniper
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Stops MEV Bots
+              No MEV Bots
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Tax Free
@@ -197,7 +197,7 @@ export default function Home() {
 
         <div className="flex justify-center">
           <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
-            Sniper and MEV Bot Defenses
+            Sniper and MEV Defenses
           </h2>
         </div>
 
