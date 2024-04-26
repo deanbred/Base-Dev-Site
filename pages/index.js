@@ -110,7 +110,7 @@ export default function Home() {
               }
             }}
           >
-            <p className="text-sm">
+            <p className="lg:text-base text-xs">
               {copiedText}
             </p>
           </div>
