@@ -110,7 +110,7 @@ export default function Home() {
               }
             }}
           >
-            <p className="text-base">
+            <p className="text-sm">
               {copiedText}
             </p>
           </div>
