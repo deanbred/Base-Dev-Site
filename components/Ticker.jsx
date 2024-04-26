@@ -67,6 +67,13 @@ export default function Ticker() {
   return (
     <div className="tradingview-widget-container" ref={container}>
       <div className="tradingview-widget-container__widget"></div>
+      <style jsx>{`
+        @media (max-width: 760px) {
+          .tradingview-widget-container {
+            display: none;
+          }
+        }
+      `}</style>
     </div>
   );
 }
