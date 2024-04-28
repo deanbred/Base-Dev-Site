@@ -4,5 +4,191 @@
 
 @font-face {
   font-family: "ubuntu";
+  src: url("../public/fonts/ubuntu.ttf");
+}
+
+@font-face {
+  font-family: "robot";
   src: url("../public/fonts/robot.ttf");
+}
+
+h2 {
+  font-family: "robot", sans-serif;
+  color: rgb(255 255 255);
+}
+
+a {
+  font-family: "robot", sans-serif;
+  color: rgb(128 0 0);
+}
+
+p {
+  font-family: monospace;
+  color: rgb(0 0 0);
+}
+
+button {
+  font-family: "robot", sans-serif;
+  padding: 0.3rem 0.5rem;
+  background-color: #800000;
+  color: rgb(255 255 255);
+  border-radius: 0.7rem;
+}
+
+.ticker {
+  font-family: "robot", sans-serif;
+  color: rgb(255 255 255);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .bg-custom {
+    background-size: contain; /* Changes size to be fully visible without cutting off */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+  }
+
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 2.5rem;
+  }
+
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .center {
+    padding: 8rem 0 6rem;
+  }
+
+  .center::before {
+    transform: none;
+    height: 300px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .description a {
+    padding: 1rem;
+  }
+
+  .description p,
+  .description div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .description p {
+    align-items: center;
+    inset: 0 0 auto;
+    padding: 2rem 1rem 1.4rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+    background: linear-gradient(
+      to bottom,
+      rgba(var(--background-start-rgb), 1),
+      rgba(var(--callout-rgb), 0.5)
+    );
+    background-clip: padding-box;
+    backdrop-filter: blur(24px);
+  }
+
+  .description div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-end-rgb)) 40%
+    );
+    z-index: 1;
+  }
+}
+
+.bg-custom {
+  background-image: url("../public/bg.png");
+  background-color: #f1d28e;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+/* Media Queries for different screen sizes */
+@media (max-width: 768px) {
+  .bg-custom {
+    background-size: contain; /* Changes size to be fully visible without cutting off */
+  }
+
+  button {
+    font-size: 1.0rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  } 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bg-custom {
+    background-size: contain; /* Maintain cover for tablets and small desktops */
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  } 
+
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+  .bg-custom {
+    background-size: contain; /* Maintain cover for larger screens */
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  } 
+}
+
+@media (min-width: 2001px) {
+  .bg-custom {
+    background-size: cover; /* Maintain cover for larger screens */
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
 }

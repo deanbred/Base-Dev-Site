@@ -5,7 +5,6 @@ import "lightbox.js-react/dist/index.css"
 import { SlideshowLightbox, initLightboxJS } from "lightbox.js-react"
 import React, { useEffect, useState } from "react"
 import Ticker from "@/components/Ticker"
-import styles from "@/styles/Home.module.css"
 
 const images = [
   { src: "/images/img01.png" },
@@ -40,22 +39,29 @@ export default function Home() {
         <link rel="icon" href="/bg.png" />
       </Head>
 
-      <div className="flex flex-col min-h-screen font-ubuntu bg-[url('../public/bg.png')] bg-[#f1d28e] bg-no-repeat 
-      bg-contain 2xl:bg-cover ">
+      <div className="flex flex-col min-h-screen font-robot bg-custom bg-[#f1d28e]">
         <Ticker />
 
         <div className="flex justify-center items-center">
-          <h2 className="xl:text-7xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl text-3xl text-white">
+          <Image
+            className="logo"
+            src="/logo.svg"
+            width={80}
+            height={80}
+            alt="Logo"
+          ></Image>
+
+          <h2 className="xl:text-7xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl text-3xl">
             MechAnime
           </h2>
         </div>
 
         <div className="p-2 space-y-2 text-xl flex flex-col items-end">
           <button
-            className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
+            className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency="
+                "https://app.uniswap.org/swap?chain=base&outputCurrency=0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
               )
             }
           >
@@ -63,10 +69,10 @@ export default function Home() {
           </button>
 
           <button
-            className="p-1 bg-[#234bfa] hover:bg-[#d1352d] text-stone-200 rounded-xl"
+            className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://dexscreener.com/base/"
+                "https://dexscreener.com/base/0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
               )
             }
           >
@@ -88,7 +94,7 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-slate-800">
-          <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
+          <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
             MechAnime pushes the evolution of base meme tokens further into art
             and lore. Inspired by master game artist Akihiko Yoshida, creator of
             Final Fantasy.
@@ -96,7 +102,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
             Contract Address
           </h2>
           <div
@@ -110,14 +116,12 @@ export default function Home() {
               }
             }}
           >
-            <p className="lg:text-base text-xs">
-              {copiedText}
-            </p>
+            <p className="lg:text-base text-xs">{copiedText}</p>
           </div>
         </div>
 
         <div className="flex justify-center">
-          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
             Tokenomics
           </h2>
         </div>
@@ -126,43 +130,43 @@ export default function Home() {
           <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
-                className="text-[#234bfa] hover:text-[#d1352d]"
-                href="https://basescan.org/token/"
+              className="hover:underline"
+              href="https://basescan.org/token/"
               >
                 Renounced
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
-                className="text-[#234bfa] hover:text-[#d1352d]"
-                href="https://beta.uncx.network/lockers/explore/pools"
+              className="hover:underline"
+              href="https://beta.uncx.network/lockers/explore/pools"
               >
                 LP Locked
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Mint Revoked
+              No Presale
             </p>
           </div>
 
           <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-2xl outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Supply 42B
+              Supply 42 Billion
             </p>
 
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
-                className="text-[#234bfa] hover:text-[#d1352d]"
-                href="https://app.uniswap.org/pools/v2"
+              className="hover:underline"
+              href="https://app.uniswap.org/pools/v2"
               >
-                V2 Pool
+                Liquidity
               </a>{" "}
               90%
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
-                className="text-[#234bfa] hover:text-[#d1352d]"
-                href="https://basescan.org/address/0x945050218120E95Cbf30d352F35546E6b35B5355"
+              className="hover:underline"
+              href="https://basescan.org/address/0x945050218120E95Cbf30d352F35546E6b35B5355"
               >
                 Burns
               </a>{" "}
@@ -170,8 +174,8 @@ export default function Home() {
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
-                className="text-[#234bfa] hover:text-[#d1352d]"
-                href="https://basescan.org/address/0xdf921074AF44aABA0da0A7B2F0F5fa0D9FddE71f"
+              className="hover:underline"
+              href="https://basescan.org/address/0xdf921074AF44aABA0da0A7B2F0F5fa0D9FddE71f"
               >
                 Team
               </a>{" "}
@@ -184,20 +188,17 @@ export default function Home() {
               Anti-Sniper
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              No MEV Bots
+              Anti-MEV
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Tax Free
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              No Presale
             </p>
           </div>
         </div>
 
         <div className="flex justify-center">
-          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
-            Sniper and MEV Defenses
+          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
+            Sniper & MEV Defense
           </h2>
         </div>
 
@@ -206,14 +207,14 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
             BackStory
           </h2>
         </div>
 
         <div className="mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-70 rounded-2xl outline outline-2 outline-slate-800">
-          <p className="lg:text-2xl md:text-2xl sm:text-xl text-lg">
-            As holy wars escalated into total apocalypse the world's elite
+          <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
+            As holy wars escalated into nuclear apocalypse the world's elite
             withdrew into fortified underground vaults. They took the best AI,
             robotics, and weapons tech with them. 20 years later, their
             mecha-warrior daughters emerge into the dune wasteland to battle for
@@ -222,7 +223,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center bg-[#f1d28e]">
-          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-3xl text-white">
+          <h2 className="xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
             Characters
           </h2>
 
@@ -245,12 +246,12 @@ export default function Home() {
             ))}
           </SlideshowLightbox>
 
-          <p className="m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
+          <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
             <a
-              className="hover:text-[#d1352d]"
+              className="hover:underline"
               href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8"
             >
-              Ticker:$MECHA
+              Ticker : $MECHA
             </a>
           </p>
         </div>
