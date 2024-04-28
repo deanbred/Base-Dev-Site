@@ -23,7 +23,7 @@ const images = [
 
 export default function Home() {
   const [copiedText, setCopiedText] = useState(
-    "0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
+    "0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
   )
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency=0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
+                "https://app.uniswap.org/swap?chain=base&outputCurrency=0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
               )
             }
           >
@@ -72,7 +72,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://dexscreener.com/base/0x9571DeAB183b0C27B13e2d05f956aEF35640b868"
+                "https://dexscreener.com/base/0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
               )
             }
           >
@@ -131,7 +131,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
               className="hover:underline"
-              href="https://basescan.org/token/"
+              href="https://basescan.org/token/0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
               >
                 Renounced
               </a>
@@ -175,7 +175,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
               className="hover:underline"
-              href="https://basescan.org/address/0xdf921074AF44aABA0da0A7B2F0F5fa0D9FddE71f"
+              href="https://basescan.org/address/0x2f5145D0e484Efdc7c2865D3Bc222382c1293d47"
               >
                 Team
               </a>{" "}
@@ -249,7 +249,7 @@ export default function Home() {
           <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
             <a
               className="hover:underline"
-              href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x5B45E6e1a6F072A3d75CE2E2a0ebc065926410D8"
+              href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x2f5145D0e484Efdc7c2865D3Bc222382c1293d47"
             >
               Ticker : $MECHA
             </a>
