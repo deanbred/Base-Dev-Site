@@ -23,7 +23,7 @@ const images = [
 
 export default function Home() {
   const [copiedText, setCopiedText] = useState(
-    "0xbED4355af95dB23e7a6A18065925b3223E8A3204"
+    "0x"
   )
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency=0xbED4355af95dB23e7a6A18065925b3223E8A3204"
+                "https://app.uniswap.org/swap?chain=base&outputCurrency="
               )
             }
           >
@@ -72,7 +72,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://dexscreener.com/base/0xbED4355af95dB23e7a6A18065925b3223E8A3204"
+                "https://dexscreener.com/base/"
               )
             }
           >
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="first mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
+        <div className="first mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
           <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
             MechAnime pushes the evolution of base meme tokens further into art
             and lore. Inspired by master game artist Akihiko Yoshida, creator of
@@ -106,7 +106,7 @@ export default function Home() {
             Contract Address
           </h2>
           <div
-            className="p-2 mb-4 max-w-xl hover:outline-white bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 cursor-pointer"
+            className="p-2 mb-4 max-w-xl hover:outline-white bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 cursor-pointer"
             onClick={async () => {
               try {
                 await navigator.clipboard.writeText(copiedText)
@@ -127,11 +127,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row justify-center mb-4 space-x-3">
-          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/token/0xbED4355af95dB23e7a6A18065925b3223E8A3204"
+                href="https://basescan.org/token/"
               >
                 Renounced
               </a>
@@ -149,7 +149,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Supply 42 Billion
             </p>
@@ -157,7 +157,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://app.uniswap.org/pools/v2"
+                href="https://app.uniswap.org/pools/v2/"
               >
                 Liquidity
               </a>{" "}
@@ -166,7 +166,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/0x945050218120E95Cbf30d352F35546E6b35B5355"
+                href="https://basescan.org/address/"
               >
                 Burns
               </a>{" "}
@@ -175,7 +175,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/0x2f5145D0e484Efdc7c2865D3Bc222382c1293d47"
+                href="https://basescan.org/address/0x426D1699B5c4D7520363406F8D715CE36e061f01"
               >
                 Team
               </a>{" "}
@@ -183,7 +183,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-2 text-center bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
+          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Anti-Sniper
             </p>
@@ -218,7 +218,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-70 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
+        <div className="mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
           <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
             As holy wars escalated into nuclear apocalypse, the world's elite
             withdrew into fortified underground vaults. They took the best AI,
@@ -266,7 +266,7 @@ export default function Home() {
           <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
             <a
               className="hover:underline"
-              href="https://app.uniswap.org/swap?chain=base&outputCurrency=0xbED4355af95dB23e7a6A18065925b3223E8A3204"
+              href="https://app.uniswap.org/swap?chain=base&outputCurrency="
             >
               Ticker : $MECHA
             </a>
