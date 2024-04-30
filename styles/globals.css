@@ -12,18 +12,23 @@
   src: url("../public/fonts/robot.ttf");
 }
 
+@font-face {
+  font-family: "robot2";
+  src: url("../public/fonts/robot2.ttf");
+}
+
 h2 {
-  font-family: "robot", sans-serif;
-  color: rgb(255 255 255);
+  font-family: "robot", serif;
+  color: rgb(128 0 0);
 }
 
 a {
-  font-family: "robot", sans-serif;
+  font-family: "robot2", serif;
   color: rgb(128 0 0);
 }
 
 p {
-  font-family: monospace;
+  font-family: "robot2", serif;
   color: rgb(0 0 0);
 }
 
@@ -43,6 +48,15 @@ button {
 .logo {
   width: 100px;
   height: 100px;
+}
+
+.code {
+  width: 80%;
+  height: "auto";
+}
+
+.first {
+  margin-top: 200px;
 }
 
 /* Mobile */
@@ -129,7 +143,7 @@ button {
 
 .bg-custom {
   background-image: url("../public/bg.png");
-  background-color: #f1d28e;
+  background-color: #dfccb7;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -146,14 +160,14 @@ button {
   }
 
   button {
-    font-size: 1.0rem;
+    font-size: 1rem;
     padding: 0.2rem 0.4rem;
   }
 
   .logo {
     width: 60px;
     height: 60px;
-  } 
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -164,7 +178,7 @@ button {
   .logo {
     width: 60px;
     height: 60px;
-  } 
+  }
 
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -179,7 +193,7 @@ button {
   .logo {
     width: 70px;
     height: 70px;
-  } 
+  }
 }
 
 @media (min-width: 2001px) {
