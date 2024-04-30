@@ -166,7 +166,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/"
+                href="https://basescan.org/address/0xD43D7A51fE44787E176158623BC7A2CC85503EEB"
               >
                 Burns
               </a>{" "}
