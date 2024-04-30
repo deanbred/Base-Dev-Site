@@ -23,7 +23,7 @@ const images = [
 
 export default function Home() {
   const [copiedText, setCopiedText] = useState(
-    "0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
+    "0xbED4355af95dB23e7a6A18065925b3223E8A3204"
   )
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency=0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
+                "https://app.uniswap.org/swap?chain=base&outputCurrency=0xbED4355af95dB23e7a6A18065925b3223E8A3204"
               )
             }
           >
@@ -72,7 +72,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://dexscreener.com/base/0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
+                "https://dexscreener.com/base/0xbED4355af95dB23e7a6A18065925b3223E8A3204"
               )
             }
           >
@@ -83,12 +83,12 @@ export default function Home() {
             <SocialIcon
               url="https://t.me/mech_anime"
               network="telegram"
-              fgColor="rgb(128 0 0)"
+              fgColor="white"
             />
             <SocialIcon
               url="https://twitter.com/mechanime_"
               network="twitter"
-              fgColor="rgb(128 0 0)"
+              fgColor="white"
             />
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/token/0xaF60224CA20E01988ed7DF8046A517834bB7d2D1"
+                href="https://basescan.org/token/0xbED4355af95dB23e7a6A18065925b3223E8A3204"
               >
                 Renounced
               </a>
@@ -255,18 +255,18 @@ export default function Home() {
             <SocialIcon
               url="https://t.me/mech_anime"
               network="telegram"
-              fgColor="rgb(128 0 0)"
+              fgColor="white"
             />
             <SocialIcon
               url="https://twitter.com/mechanime_"
               network="twitter"
-              fgColor="rgb(128 0 0)"
+              fgColor="white"
             />
           </div>
           <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
             <a
               className="hover:underline"
-              href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x2f5145D0e484Efdc7c2865D3Bc222382c1293d47"
+              href="https://app.uniswap.org/swap?chain=base&outputCurrency=0xbED4355af95dB23e7a6A18065925b3223E8A3204"
             >
               Ticker : $MECHA
             </a>

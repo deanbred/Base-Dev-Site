@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ubuntu";
-  src: url("../public/fonts/ubuntu.ttf");
-}
-
-@font-face {
   font-family: "robot";
   src: url("../public/fonts/robot.ttf");
 }
