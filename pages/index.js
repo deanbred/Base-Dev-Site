@@ -150,7 +150,7 @@ export default function Home() {
 
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Supply 42 Billion
+              Supply 4.2 Billion
             </p>
 
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
