@@ -41,7 +41,7 @@ button {
 }
 
 .logo {
-  animation: rotate 15s linear infinite;
+  animation: rotate 12s linear infinite;
   width: 100px;
   height: 100px;
 }

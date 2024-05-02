@@ -262,14 +262,30 @@ export default function Home() {
               fgColor="white"
             />
           </div>
-          <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
-            <a
-              className="hover:underline"
-              href="https://app.uniswap.org/swap?chain=base&outputCurrency="
-            >
-              Ticker : $MECHA
-            </a>
-          </p>
+          <div className="flex flex-row items-center">
+            <Image
+              className="logo"
+              src="/logo.svg"
+              width={60}
+              height={60}
+              alt="Logo"
+            ></Image>
+            <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
+              <a
+                className="hover:underline"
+                href="https://app.uniswap.org/swap?chain=base&outputCurrency="
+              >
+                Ticker : $MECHA
+              </a>
+            </p>
+            <Image
+              className="logo"
+              src="/logo.svg"
+              width={60}
+              height={60}
+              alt="Logo"
+            ></Image>
+          </div>
         </div>
       </div>
     </>
