@@ -156,7 +156,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://app.uniswap.org/pools/v2/0x5CCA185d0BcC3f4AF88eC9755132f2721306500d"
+                href="https://app.uniswap.org/pools/v2/"
               >
                 Liquidity
               </a>{" "}
@@ -165,7 +165,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/0xD43D7A51fE44787E176158623BC7A2CC85503EEB"
+                href="https://basescan.org/address/"
               >
                 Burns
               </a>{" "}
@@ -174,7 +174,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/0x426D1699B5c4D7520363406F8D715CE36e061f01"
+                href="https://basescan.org/address/"
               >
                 Team
               </a>{" "}
