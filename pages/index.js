@@ -83,12 +83,12 @@ export default function Home() {
 
           <div className="flex flex-col ml-auto space-y-4">
             <SocialIcon
-              url="https://t.me/mech_anime"
+              url="https://t.me/"
               network="telegram"
               fgColor="white"
             />
             <SocialIcon
-              url="https://twitter.com/mechanime_"
+              url="https://twitter.com/"
               network="twitter"
               fgColor="white"
             />
@@ -204,7 +204,7 @@ export default function Home() {
         <div className="mx-auto mb-4">
           <Image
             className="rounded-lg"
-            src="code.png"
+            src=".png"
             width={840}
             height={300}
             alt="Code"
