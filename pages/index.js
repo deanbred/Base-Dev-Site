@@ -67,7 +67,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency="
+                "https://"
               )
             }
           >
@@ -76,7 +76,7 @@ export default function Home() {
 
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () => window.open("https://dexscreener.com/base/")}
+            onClick={async () => window.open("https://dexscreener.com")}
           >
             Chart
           </button>
@@ -97,7 +97,7 @@ export default function Home() {
 
         <div className="first mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
           <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
-            MechAnime pushes the evolution of base meme tokens further into art
+            MechAnime pushes the evolution of meme tokens further into art
             and lore. Inspired by master game artist Akihiko Yoshida, creator of
             Final Fantasy.
           </p>
@@ -131,16 +131,16 @@ export default function Home() {
         <div className="flex flex-row justify-center mb-4 space-x-3">
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a className="hover:underline" href="https://basescan.org/token/">
+              <a className="hover:underline" href="https://solscan.org/">
                 Renounced
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://beta.uncx.network/lockers/explore/pools"
+                href="https://"
               >
-                LP Locked
+                LP Burned
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
@@ -156,7 +156,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://app.uniswap.org/pools/v2/"
+                href="https://"
               >
                 Liquidity
               </a>{" "}
@@ -165,7 +165,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/"
+                href="https://solscan.org/address/"
               >
                 Burns
               </a>{" "}
@@ -174,7 +174,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://basescan.org/address/"
+                href="https://solscan.org/address/"
               >
                 Team
               </a>{" "}
@@ -273,7 +273,7 @@ export default function Home() {
             <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
               <a
                 className="hover:underline"
-                href="https://app.uniswap.org/swap?chain=base&outputCurrency="
+                href="https://"
               >
                 Ticker : $MECHA
               </a>

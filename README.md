@@ -8,7 +8,7 @@
 As holy wars escalated into nuclear apocalypse, the world's elite withdrew into fortified underground vaults. They took the best AI, robotics, and weapons tech with them. 20 years later, their mecha-warrior daughters emerge into the dune wasteland to battle for the planet's last resources. Follow their story on X and TG.
 
 ⚙️ MechAnime just stealth launched on base 👀
-CA: 0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76
+CA: 
 ⚖️ Fair distribution: 3% max wallet, no presale or KOLs
 🔒 90% of total supply locked until 2025
 🔥 5% for burns, 5% for team
