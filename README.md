@@ -1,4 +1,4 @@
-MechAnime pushes the evolution of base meme tokens further into art and lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
+⚙️ MechAnime pushes the evolution of base meme tokens further into art and lore. Inspired by master game artist Akihiko Yoshida, creator of Final Fantasy.
 
 ⚖️ Fair distribution: 3% max wallet, no presale or KOLs
 🔒 90% of total supply locked until 2025
