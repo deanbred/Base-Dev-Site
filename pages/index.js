@@ -22,7 +22,7 @@ const images = [
 ]
 
 export default function Home() {
-  const [copiedText, setCopiedText] = useState("0x")
+  const [copiedText, setCopiedText] = useState("0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76")
 
   useEffect(() => {
     initLightboxJS("DF8A-D560-5C71-E585", "Individual")
@@ -67,7 +67,7 @@ export default function Home() {
             className="hover:bg-stone-100 hover:text-[#800000]"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/swap?chain=base&outputCurrency="
+                "https://app.uniswap.org/swap?chain=base&outputCurrency=0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76"
               )
             }
           >
@@ -76,7 +76,7 @@ export default function Home() {
 
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () => window.open("https://dexscreener.com/base/")}
+            onClick={async () => window.open("https://dexscreener.com/base/0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76")}
           >
             Chart
           </button>
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="flex flex-row justify-center mb-4 space-x-3">
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a className="hover:underline" href="https://basescan.org/token/">
+              <a className="hover:underline" href="https://basescan.org/token/0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76">
                 Renounced
               </a>
             </p>
@@ -273,7 +273,7 @@ export default function Home() {
             <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
               <a
                 className="hover:underline"
-                href="https://app.uniswap.org/swap?chain=base&outputCurrency="
+                href="https://app.uniswap.org/swap?chain=base&outputCurrency=0xaB80A4dc49e4B0E8e52eEBE3741826A7BCCe0f76"
               >
                 Ticker : $MECHA
               </a>
