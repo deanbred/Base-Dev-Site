@@ -35,6 +35,13 @@ button {
   border-radius: 0.7rem;
 }
 
+.bg-custom {
+  background-image: url("../public/bg.png");
+  background-color: #dfccb7;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .ticker {
   font-family: "robot", sans-serif;
   color: rgb(255 255 255);
@@ -44,15 +51,6 @@ button {
   animation: rotate 12s linear infinite;
   width: 100px;
   height: 100px;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .code {
@@ -146,18 +144,6 @@ button {
   }
 }
 
-.bg-custom {
-  background-image: url("../public/bg.png");
-  background-color: #dfccb7;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-}
-
 /* Media Queries for different screen sizes */
 @media (max-width: 768px) {
   .bg-custom {
@@ -180,6 +166,10 @@ button {
     background-size: contain; /* Maintain cover for tablets and small desktops */
   }
 
+  .first {
+    margin-top: 150px;
+  }
+
   .logo {
     width: 60px;
     height: 60px;
@@ -190,9 +180,13 @@ button {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 2000px) {
+@media (min-width: 1025px) and (max-width: 3000px) {
   .bg-custom {
     background-size: contain; /* Maintain cover for larger screens */
+  }
+
+  .first {
+    margin-top: 300px;
   }
 
   .logo {
@@ -201,13 +195,27 @@ button {
   }
 }
 
-@media (min-width: 2001px) {
+@media (min-width: 3001px) {
   .bg-custom {
     background-size: cover; /* Maintain cover for larger screens */
+    background-height: 100%;
+  }
+
+  .first {
+    margin-top: 540px;
   }
 
   .logo {
     width: 80px;
     height: 80px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

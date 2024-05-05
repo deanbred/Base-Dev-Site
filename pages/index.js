@@ -250,6 +250,7 @@ export default function Home() {
               fgColor="white"
             />
           </div>
+
           <div className="flex flex-row items-center">
             <Image
               className="logo"
@@ -271,6 +272,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
           </div>
+          
         </div>
       </div>
     </>
