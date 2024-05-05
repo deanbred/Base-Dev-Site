@@ -185,7 +185,7 @@ export default function Home() {
 
         <div className="flex justify-center">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
-            Launching
+            Launched
           </h2>
         </div>
 
