@@ -83,12 +83,12 @@ export default function Home() {
 
           <div className="flex flex-col ml-auto space-y-4">
             <SocialIcon
-              url="https://t.me/"
+              url="https://t.me/mech_anime"
               network="telegram"
               fgColor="white"
             />
             <SocialIcon
-              url="https://twitter.com/"
+              url="https://twitter.com/mechanime_"
               network="twitter"
               fgColor="white"
             />
@@ -112,7 +112,7 @@ export default function Home() {
             onClick={async () => {
               try {
                 await navigator.clipboard.writeText(copiedText)
-                setCopiedText("Base CA Copied!")
+                setCopiedText("CA Copied!")
               } catch (err) {
                 console.error("Failed to copy text: ", err)
               }
@@ -132,7 +132,7 @@ export default function Home() {
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a className="hover:underline" href="https://solscan.org/">
-                Renounced
+                LP Burnt
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
@@ -140,11 +140,8 @@ export default function Home() {
                 className="hover:underline"
                 href="https://"
               >
-                LP Burned
+                Mint Revoked
               </a>
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              No Presale
             </p>
           </div>
 
@@ -183,14 +180,14 @@ export default function Home() {
           </div>
 
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Anti-Sniper
+          <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
+              Stealth Launch
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Anti-MEV
+              No Presale
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Tax Free
+              No Taxes
             </p>
           </div>
         </div>

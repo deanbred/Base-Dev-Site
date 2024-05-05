@@ -1,12 +1,12 @@
 {
     "name": "Mechanime",
-    "symbol": "MECHANIME",
+    "symbol": "MECHA",
     "decimals": 18,
     "description": "Culture Token on Base",
-    "website": "https://mechanime.site/",
+    "website": "https://mechanime.site",
     "twitter": "@mechanime_",
     "tokens": {
-      "base": {
+      "sol": {
         "address": ""
       }
     }
