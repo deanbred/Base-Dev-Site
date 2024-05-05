@@ -258,7 +258,7 @@ export default function Home() {
               height={60}
               alt="Logo"
             ></Image>
-            <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
+            <p className="ticker m-2 lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-white">
               <a className="hover:underline" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve&outputSymbol=MECHA&fixed=in">
                 Ticker : $MECHA
               </a>
