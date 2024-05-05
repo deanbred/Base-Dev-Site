@@ -65,7 +65,7 @@ export default function Home() {
         <div className="p-2 space-y-2 text-xl flex flex-col items-end">
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () => window.open("https://")}
+            onClick={async () => window.open("https://raydium.io/swap/?inputCurrency=sol&outputCurrency=G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve&outputSymbol=MECHA&fixed=in")}
           >
             Buy MECHA
           </button>
@@ -259,7 +259,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
             <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
-              <a className="hover:underline" href="https://">
+              <a className="hover:underline" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve&outputSymbol=MECHA&fixed=in">
                 Ticker : $MECHA
               </a>
             </p>
