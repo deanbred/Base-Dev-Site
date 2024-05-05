@@ -22,7 +22,7 @@ const images = [
 ]
 
 export default function Home() {
-  const [copiedText, setCopiedText] = useState("")
+  const [copiedText, setCopiedText] = useState("G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve")
 
   useEffect(() => {
     initLightboxJS("DF8A-D560-5C71-E585", "Individual")
@@ -65,18 +65,14 @@ export default function Home() {
         <div className="p-2 space-y-2 text-xl flex flex-col items-end">
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () =>
-              window.open(
-                "https://"
-              )
-            }
+            onClick={async () => window.open("https://")}
           >
             Buy MECHA
           </button>
 
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () => window.open("https://dexscreener.com")}
+            onClick={async () => window.open("https://dexscreener.com/solana")}
           >
             Chart
           </button>
@@ -97,8 +93,8 @@ export default function Home() {
 
         <div className="first mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
           <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
-            MechAnime pushes the evolution of meme tokens further into art
-            and lore. Inspired by master game artist Akihiko Yoshida, creator of
+            MechAnime pushes the evolution of meme tokens further into art and
+            lore. Inspired by master game artist Akihiko Yoshida, creator of
             Final Fantasy.
           </p>
         </div>
@@ -131,30 +127,25 @@ export default function Home() {
         <div className="flex flex-row justify-center mb-4 space-x-3">
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a className="hover:underline" href="https://solscan.org/">
+              <a className="hover:underline" href="https://solscan.io/tx/2ccG1HMedF1XrP5qkSjEdaE4adSutSWwEpBUYqcYxHMzdiUedsuskFYcx1zAQG6SxCre8bRkaR3D5u3xSxBgHJF5">
                 LP Burnt
               </a>
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a
-                className="hover:underline"
-                href="https://"
-              >
-                Mint Revoked
-              </a>
+              Mint Revoked
+            </p>
+            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
+              Immutable
             </p>
           </div>
 
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Supply 4.2 Billion
+              Supply 10 Billion
             </p>
 
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a
-                className="hover:underline"
-                href="https://"
-              >
+              <a className="hover:underline" href="https://">
                 Liquidity
               </a>{" "}
               90%
@@ -162,7 +153,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://solscan.org/address/"
+                href="https://solscan.org/address/5cmYfaJckh1kzQ8bCpUs8rCWoYSdtvm16K6gUEApD6i"
               >
                 Burns
               </a>{" "}
@@ -171,7 +162,7 @@ export default function Home() {
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               <a
                 className="hover:underline"
-                href="https://solscan.org/address/"
+                href="https://solscan.org/address/3eusjBZQzkpJwRQLN9pc3Hie4LjLGh3FssSQqZ3NyiZa"
               >
                 Team
               </a>{" "}
@@ -180,7 +171,7 @@ export default function Home() {
           </div>
 
           <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
-          <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
+            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
               Stealth Launch
             </p>
             <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
@@ -194,14 +185,14 @@ export default function Home() {
 
         <div className="flex justify-center">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
-            Sniper & MEV Defense
+            Launching
           </h2>
         </div>
 
         <div className="mx-auto mb-4">
           <Image
             className="rounded-lg"
-            src=".png"
+            src="launch.png"
             width={840}
             height={300}
             alt="Code"
@@ -218,7 +209,7 @@ export default function Home() {
           <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
             As holy wars escalated into nuclear apocalypse, the world's elite
             withdrew into fortified underground vaults. They took the best AI,
-            robotics, and weapons tech with them. 20 years later, their
+            robotics, and weapons tech with them. Decades later their
             mecha-warrior daughters emerge into the dune wasteland to battle for
             the planet's last resources. Follow their story on X and TG.
           </p>
@@ -268,10 +259,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
             <p className="ticker m-2 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-white">
-              <a
-                className="hover:underline"
-                href="https://"
-              >
+              <a className="hover:underline" href="https://">
                 Ticker : $MECHA
               </a>
             </p>
