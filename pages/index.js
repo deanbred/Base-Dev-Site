@@ -72,7 +72,7 @@ export default function Home() {
 
           <button
             className="hover:bg-stone-100 hover:text-[#800000]"
-            onClick={async () => window.open("https://dexscreener.com/solana")}
+            onClick={async () => window.open("https://dexscreener.com/solana/6b2dr2ylaw6qgq2h15d3w5xhhghh3pgv1vudixhcfryk")}
           >
             Chart
           </button>
