@@ -13,6 +13,9 @@ https://t.me/mech_anime
 
 https://twitter.com/mechanime_
 
+Creator Wallet Address: 3eusjBZQzkpJwRQLN9pc3Hie4LjLGh3FssSQqZ3NyiZa
+
+Burn Wallet Address: 5cmYfaJckh1kzQ8bCpUs8rCWoYSdtvm16K6gUEApD6i
 
 Token Address:
 G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve
@@ -26,3 +29,5 @@ OpenBook Market ID: FYwHsz5zRaDvFvFm6CfYPSnLw2SVSYFiy2Porkr9Bo3o
 AMM ID: 6B2Dr2yLaW6QGQ2h15D3W5xHHgHH3PGv1VuDixHcFrYk
 
 Raydium LP Tokens: 2YCVtcDgJypWrhniM8mVdKA5DQ4hFcnGFq8jMBR7EYW8
+
+Sol Incinerator: https://solscan.io/tx/2ccG1HMedF1XrP5qkSjEdaE4adSutSWwEpBUYqcYxHMzdiUedsuskFYcx1zAQG6SxCre8bRkaR3D5u3xSxBgHJF5
